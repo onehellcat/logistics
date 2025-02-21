@@ -1,7 +1,7 @@
 // routes/devices.js
 const express = require("express");
 const router = express.Router();
-const db = require("../db"); // Assuming db.js handles your MySQL connection
+const db = require("../db"); 
 const { log, error } = require("console");
 const { put } = require("./devices");
 
